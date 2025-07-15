@@ -1,0 +1,75 @@
+# Zero-Shot Prompt Practice
+# Email Writing
+prompt: "Write a professional email to stakeholders explaining a 2-week delay in the WhatsApp integration project. Include an apology, brief explanation of technical challenges, revised timeline, and next steps. Keep the tone professional but reassuring."
+ai_response: "Subject: Update on WhatsApp Integration Project – Revised Timeline
+
+Dear [Stakeholders' Names],
+
+I hope this message finds you well.
+
+I’m writing to inform you of a two-week delay in the WhatsApp integration project. We sincerely apologize for this shift in our timeline and understand the importance of keeping the project on track.
+
+The delay is due to unforeseen technical challenges encountered during the integration phase, particularly around ensuring secure data transmission and compatibility with our existing infrastructure. Our team is actively working to resolve these issues and has made significant progress, but additional time is needed to ensure a stable and reliable solution.
+
+Revised Timeline:
+We now anticipate completing the integration by [New Completion Date], with testing and deployment following shortly thereafter.
+
+Next Steps:
+
+Finalize resolution of the technical issues by [specific date]
+Conduct thorough testing and validation
+Share an updated demo or progress report by [specific date]
+Schedule a stakeholder review session to confirm readiness
+We remain committed to delivering a high-quality solution and appreciate your continued support and understanding. Please feel free to reach out if you have any questions or would like to discuss the revised plan in more detail.
+
+Warm regards,
+[Your Full Name]
+[Your Job Title]
+[Your Contact Information]
+[Company Name]"
+
+# Meeting Summary
+prompt: "Create a concise meeting summary with the following structure: Key Decisions, Action Items (with owners and deadlines), and Next Meeting Date. Write it for a project status meeting about implementing WhatsApp customer service capabilities."
+ai_response: "Here’s a concise meeting summary for a project status meeting focused on implementing WhatsApp customer service capabilities:
+
+Meeting Summary – WhatsApp Customer Service Integration
+Date: [Insert Meeting Date]
+Attendees: [List Key Participants]
+
+Key Decisions
+Proceed with Twilio API for WhatsApp integration.
+Customer support team to begin training on new interface by end of August.
+Initial rollout will target Tier 1 support queries only.
+Action Items
+Task	Owner	Deadline
+Finalize API configuration and security protocols	Tech Lead (Alex M.)	July 22, 2025
+Develop training materials for support team	HR & Training (Nina K.)	July 25, 2025
+Conduct internal testing of WhatsApp integration	QA Team (Samuel T.)	July 29, 2025
+Schedule stakeholder demo	Project Manager (Lebo D.)	August 1, 2025
+Next Meeting Date
+Tuesday, July 29, 2025 @ 10:00 AM"
+
+# Technical Documentation:
+prompt: "Write a brief technical requirements document for integrating WhatsApp Business API into an existing customer service system. Include sections for: Overview, Technical Requirements, Integration Points, and Success Criteria. Use bullet points and keep it under 300 words."
+ai_response: "WhatsApp Integration – Technical Requirements Document
+Overview
+This document outlines the technical requirements for integrating WhatsApp Business API into the existing customer service platform to enable real-time customer communication and support.
+
+Technical Requirements
+WhatsApp Business Account with verified phone number and Facebook Business Manager approval.
+API Provider: Use of Twilio or Meta’s Cloud API for message handling.
+Secure Webhook Endpoint to receive incoming messages and delivery status updates.
+Authentication: OAuth 2.0 or API key-based authentication for secure API access.
+Message Templates: Pre-approved templates for outbound messages (e.g., order updates, support follow-ups).
+Data Storage: Integration with existing CRM for message logging and customer history.
+Integration Points
+Customer Service Dashboard: Embed WhatsApp chat interface or link to external chat window.
+CRM System: Sync customer profiles and chat history.
+Notification System: Trigger WhatsApp messages based on system events (e.g., ticket updates).
+Analytics Module: Track message delivery, response times, and agent performance.
+Success Criteria
+Seamless two-way messaging between customers and agents via WhatsApp.
+99.9% message delivery success rate.
+Integration with CRM and ticketing system without data loss.
+Agent training completed and system live within 6 weeks.
+Positive feedback from pilot users and support team."
